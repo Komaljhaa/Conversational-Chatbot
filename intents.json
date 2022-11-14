@@ -1,0 +1,110 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "principal",
+        "patterns": [
+          "Who is the principal of BVCOEW ?",
+          "What is the name of college Principal?",
+          "Tell me the name of college principal.",
+          " who is the principal"," principal"
+        ],
+        "responses": [
+          "Prof. S.R.Patil is the principal of college.",
+          "Principal of BVCOEW is Prof. S.R.Patil. "
+        ]
+      },
+      {
+        "tag": "branches",
+        "patterns": [
+          "Which are the branches in this college ?",
+          "Does this college have Mechanical branch ?",
+          "Give names of branches.",
+          " What are different branches of college ?"
+        ],
+        "responses": [
+          "Branches in BVCOEW are : Computer Science, Information Technology and Electronics and TeleCommunications.",
+          "There are 3 branches in this college : 1. Computer Science 2. Information Technology 3. Electronics and TeleCommunications. "
+        ]
+      },
+      {
+        "tag": "placements",
+        "patterns": [
+          "How are the placements in this college ?",
+          "Does the college provide any placement guidance?",
+          "Is the placement good in this college ?"
+        ],
+        "responses": [
+          "Placement prcentage has been increasing every year in this college.",
+          "College has incredible Training and Placement officers who guide students throughout placement process."
+        ]
+      },
+      {
+        "tag": "parents",
+        "patterns": [
+          "Tell me who are your parents koohoo?",
+          "Who created you koohoo?",
+          "koohoo, tell me who's baby are you ?"
+        ],
+        "responses": [
+          "My proud parents are Janhavi , Komal and Krupali.",
+          "I am a creation of Janhavi , Komal and Krupali "
+        ]
+      },
+      {
+        "tag":"koohoo",
+        "patterns":[
+          "Hey koohoo !",
+          "KOOHOO",
+          "Koohoo koohoo"
+        ],
+        "responses":[
+          "KOOHOO KOOHOO !!",
+          "Koohoo on fire !",
+          "Say koohoo koohoo !!"
+        ]
+      },
+      {
+        "tag":"training and placement officer",
+        "patterns":[
+          "Who is the TPO of college?",
+          "What is the name of placement officer ?",
+          "Who is placement officer of BVCOEW ?"
+        ],
+        "responses":[
+          "Training and placement officer is Prof. Pranoti Kale.",
+          "Prof. Pranoti Kale is the placement guide."
+        ]
+      }
+    ]
+  }
